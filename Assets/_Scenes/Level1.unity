@@ -1987,6 +1987,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1352885977}
     m_Modifications:
+    - target: {fileID: 3135842382041729794, guid: af1a7a1b9458593d5acb8258da7e8223,
+        type: 3}
+      propertyPath: explosionPrefab
+      value: 
+      objectReference: {fileID: 3609813370683073423, guid: 0168077aa52d551bf801909e1fb7e8bb,
+        type: 3}
+    - target: {fileID: 3135842382041729796, guid: af1a7a1b9458593d5acb8258da7e8223,
+        type: 3}
+      propertyPath: explosionPrefab
+      value: 
+      objectReference: {fileID: 3609813370683073423, guid: 0168077aa52d551bf801909e1fb7e8bb,
+        type: 3}
     - target: {fileID: 3135842382041729798, guid: af1a7a1b9458593d5acb8258da7e8223,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2340,6 +2352,41 @@ MonoBehaviour:
   destroySelfOnImpact: 0
   delayBeforeDestroy: 0
   explosionPrefab: {fileID: 0}
+--- !u!54 &8931503085698393747
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8931503085698393742}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!95 &8931503085698393748
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8931503085698393742}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 864eee7bfe929f5d9b913ba0d34b3e72, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!4 &8933845470343886562 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7276514667021032102, guid: 34f6d0a2aad8665c491f5bee0ad8c4af,
